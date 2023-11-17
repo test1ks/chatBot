@@ -5,7 +5,7 @@ bot = Bot(token="BOT KEY HERE")
 dp = Dispatcher(bot)
 api_key = "API KEY HERE"
 openai.api_key = api_key
-users = {556284707}
+users = {"TELEGRAM_USER_ID_HERE"}
 accepted_users = lambda message: message.from_user.id not in users
 
 
